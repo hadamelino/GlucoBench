@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#PBS -l select=1:ncpus=2:mem=64gb:ngpus=1
+#PBS -l walltime=2:00:00
+#PBS -M z5490941@ad.unsw.edu.au
+#PBS -m ae
+
+#PBS -j oe
+
+ROOT_DIR=/home/z5490941
+
+cd $ROOT_DIR/GlucoBench
+
+# update the repo
+git pull
+
+module load python
+
+source $ROOT_DIR/meta_learning/bin/activate
+
+pip install -r requirements.txt
+
+wandb login --relogin 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
+
+python ./lib/jepa.py --dataset weinstock --optuna False
+
