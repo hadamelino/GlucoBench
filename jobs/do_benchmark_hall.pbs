@@ -22,5 +22,5 @@ pip install -r requirements.txt
 
 wandb login --relogin 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
 
-python ./lib/jepa.py --dataset dubosson --optuna False
+python ./lib/jepa.py --dataset hall --optuna False
 
