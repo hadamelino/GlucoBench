@@ -1,0 +1,268 @@
+Optimization started at 2026-01-14 20:40:25.758662
+--------------------------------
+Loading column definition...
+Checking column definition...
+Loading data...
+Dropping columns / rows...
+Checking for NA values...
+Setting data types...
+Dropping columns / rows...
+Encoding data...
+	Updated column definition:
+		id: REAL_VALUED (ID)
+		time: DATE (TIME)
+		gl: REAL_VALUED (TARGET)
+		fast_insulin: REAL_VALUED (OBSERVED_INPUT)
+		slow_insulin: REAL_VALUED (OBSERVED_INPUT)
+		calories: REAL_VALUED (OBSERVED_INPUT)
+		balance: REAL_VALUED (OBSERVED_INPUT)
+		quality: REAL_VALUED (OBSERVED_INPUT)
+		HR: REAL_VALUED (OBSERVED_INPUT)
+		BR: REAL_VALUED (OBSERVED_INPUT)
+		Posture: REAL_VALUED (OBSERVED_INPUT)
+		Activity: REAL_VALUED (OBSERVED_INPUT)
+		HRV: REAL_VALUED (OBSERVED_INPUT)
+		CoreTemp: REAL_VALUED (OBSERVED_INPUT)
+		time_year: REAL_VALUED (KNOWN_INPUT)
+		time_month: REAL_VALUED (KNOWN_INPUT)
+		time_day: REAL_VALUED (KNOWN_INPUT)
+		time_hour: REAL_VALUED (KNOWN_INPUT)
+		time_minute: REAL_VALUED (KNOWN_INPUT)
+Interpolating data...
+	Dropped segments: 1
+	Extracted segments: 8
+	Interpolated values: 0
+	Percent of values interpolated: 0.00%
+Splitting data...
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+Scaling data...
+	No scaling applied
+Data formatting complete.
+--------------------------------
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 10 Seed: 1 ID mean of (MSE, MAE): [4053.203      45.113037]
+		Model Seed: 10 Seed: 1 OOD mean of (MSE, MAE) stats: [2070.143     37.37617]
+		Model Seed: 10 Seed: 1 ID median of (MSE, MAE): [1187.4305     31.437042]
+		Model Seed: 10 Seed: 1 OOD median of (MSE, MAE) stats: [1272.8953     33.368996]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 10 Seed: 2 ID mean of (MSE, MAE): [4432.579      47.584023]
+		Model Seed: 10 Seed: 2 OOD mean of (MSE, MAE) stats: [2109.3342     34.289143]
+		Model Seed: 10 Seed: 2 ID median of (MSE, MAE): [1426.5734    34.25084]
+		Model Seed: 10 Seed: 2 OOD median of (MSE, MAE) stats: [696.4929    23.912941]
+	Model Seed: 10 ID mean of (MSE, MAE): [4242.891     46.34853]
+	Model Seed: 10 OOD mean of (MSE, MAE): [2089.7388     35.832657]
+	Model Seed: 10 ID median of (MSE, MAE): [1307.002     32.84394]
+	Model Seed: 10 OOD median of (MSE, MAE): [984.6941    28.640968]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 11 Seed: 1 ID mean of (MSE, MAE): [4279.2207    52.72018]
+		Model Seed: 11 Seed: 1 OOD mean of (MSE, MAE) stats: [3929.1921    52.55949]
+		Model Seed: 11 Seed: 1 ID median of (MSE, MAE): [2529.8025    48.05129]
+		Model Seed: 11 Seed: 1 OOD median of (MSE, MAE) stats: [2764.655      50.346897]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 11 Seed: 2 ID mean of (MSE, MAE): [4131.1724     44.606773]
+		Model Seed: 11 Seed: 2 OOD mean of (MSE, MAE) stats: [2167.9907     34.803318]
+		Model Seed: 11 Seed: 2 ID median of (MSE, MAE): [1168.8602     31.379509]
+		Model Seed: 11 Seed: 2 OOD median of (MSE, MAE) stats: [669.88525  24.14562]
+	Model Seed: 11 ID mean of (MSE, MAE): [4205.1963     48.663475]
+	Model Seed: 11 OOD mean of (MSE, MAE): [3048.5913     43.681404]
+	Model Seed: 11 ID median of (MSE, MAE): [1849.3313   39.7154]
+	Model Seed: 11 OOD median of (MSE, MAE): [1717.2701     37.246258]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 12 Seed: 1 ID mean of (MSE, MAE): [3894.2114     45.935966]
+		Model Seed: 12 Seed: 1 OOD mean of (MSE, MAE) stats: [2293.799     39.77397]
+		Model Seed: 12 Seed: 1 ID median of (MSE, MAE): [1435.9928     35.623947]
+		Model Seed: 12 Seed: 1 OOD median of (MSE, MAE) stats: [1353.7708     34.714252]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 12 Seed: 2 ID mean of (MSE, MAE): [4083.1343     46.147503]
+		Model Seed: 12 Seed: 2 OOD mean of (MSE, MAE) stats: [1854.1439    32.72524]
+		Model Seed: 12 Seed: 2 ID median of (MSE, MAE): [1345.0133    34.42343]
+		Model Seed: 12 Seed: 2 OOD median of (MSE, MAE) stats: [685.5529    24.324526]
+	Model Seed: 12 ID mean of (MSE, MAE): [3988.6729     46.041733]
+	Model Seed: 12 OOD mean of (MSE, MAE): [2073.9714     36.249603]
+	Model Seed: 12 ID median of (MSE, MAE): [1390.503     35.02369]
+	Model Seed: 12 OOD median of (MSE, MAE): [1019.66187   29.51939]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 13 Seed: 1 ID mean of (MSE, MAE): [3919.7432     46.096733]
+		Model Seed: 13 Seed: 1 OOD mean of (MSE, MAE) stats: [2355.3276    40.62077]
+		Model Seed: 13 Seed: 1 ID median of (MSE, MAE): [1467.725      35.995586]
+		Model Seed: 13 Seed: 1 OOD median of (MSE, MAE) stats: [1444.3217    35.66593]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 13 Seed: 2 ID mean of (MSE, MAE): [4078.2559     49.512203]
+		Model Seed: 13 Seed: 2 OOD mean of (MSE, MAE) stats: [1784.1803     33.830906]
+		Model Seed: 13 Seed: 2 ID median of (MSE, MAE): [1991.4039    42.01072]
+		Model Seed: 13 Seed: 2 OOD median of (MSE, MAE) stats: [1031.8916     30.492258]
+	Model Seed: 13 ID mean of (MSE, MAE): [3998.9995     47.804466]
+	Model Seed: 13 OOD mean of (MSE, MAE): [2069.754      37.225838]
+	Model Seed: 13 ID median of (MSE, MAE): [1729.5645    39.00315]
+	Model Seed: 13 OOD median of (MSE, MAE): [1238.1067     33.079094]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 14 Seed: 1 ID mean of (MSE, MAE): [3925.1074     46.171047]
+		Model Seed: 14 Seed: 1 OOD mean of (MSE, MAE) stats: [2344.0735    40.31112]
+		Model Seed: 14 Seed: 1 ID median of (MSE, MAE): [1466.7877    35.88461]
+		Model Seed: 14 Seed: 1 OOD median of (MSE, MAE) stats: [1394.4941    35.04742]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 14 Seed: 2 ID mean of (MSE, MAE): [4169.905      44.754948]
+		Model Seed: 14 Seed: 2 OOD mean of (MSE, MAE) stats: [2295.1602     35.644886]
+		Model Seed: 14 Seed: 2 ID median of (MSE, MAE): [1090.3827     31.073507]
+		Model Seed: 14 Seed: 2 OOD median of (MSE, MAE) stats: [718.363    25.09462]
+	Model Seed: 14 ID mean of (MSE, MAE): [4047.506      45.462997]
+	Model Seed: 14 OOD mean of (MSE, MAE): [2319.6167     37.978004]
+	Model Seed: 14 ID median of (MSE, MAE): [1278.5852     33.479057]
+	Model Seed: 14 OOD median of (MSE, MAE): [1056.4286    30.07102]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 15 Seed: 1 ID mean of (MSE, MAE): [3925.8704     46.162937]
+		Model Seed: 15 Seed: 1 OOD mean of (MSE, MAE) stats: [2375.2139    40.62167]
+		Model Seed: 15 Seed: 1 ID median of (MSE, MAE): [1481.7675     36.208942]
+		Model Seed: 15 Seed: 1 OOD median of (MSE, MAE) stats: [1415.8838    35.61897]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 15 Seed: 2 ID mean of (MSE, MAE): [4197.7905     44.707905]
+		Model Seed: 15 Seed: 2 OOD mean of (MSE, MAE) stats: [2282.6863     35.012928]
+		Model Seed: 15 Seed: 2 ID median of (MSE, MAE): [1115.5656     31.419985]
+		Model Seed: 15 Seed: 2 OOD median of (MSE, MAE) stats: [728.43115   24.268152]
+	Model Seed: 15 ID mean of (MSE, MAE): [4061.8306    45.43542]
+	Model Seed: 15 OOD mean of (MSE, MAE): [2328.9502   37.8173]
+	Model Seed: 15 ID median of (MSE, MAE): [1298.6665     33.814465]
+	Model Seed: 15 OOD median of (MSE, MAE): [1072.1575     29.943562]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 16 Seed: 1 ID mean of (MSE, MAE): [3696.8315     46.795197]
+		Model Seed: 16 Seed: 1 OOD mean of (MSE, MAE) stats: [2880.9773    44.69979]
+		Model Seed: 16 Seed: 1 ID median of (MSE, MAE): [1758.0918    40.40725]
+		Model Seed: 16 Seed: 1 OOD median of (MSE, MAE) stats: [1855.331      39.828903]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 16 Seed: 2 ID mean of (MSE, MAE): [4344.355      46.483856]
+		Model Seed: 16 Seed: 2 OOD mean of (MSE, MAE) stats: [2150.2886    34.48785]
+		Model Seed: 16 Seed: 2 ID median of (MSE, MAE): [1292.7688    33.23489]
+		Model Seed: 16 Seed: 2 OOD median of (MSE, MAE) stats: [689.8843    24.529295]
+	Model Seed: 16 ID mean of (MSE, MAE): [4020.5933     46.639526]
+	Model Seed: 16 OOD mean of (MSE, MAE): [2515.6328    39.59382]
+	Model Seed: 16 ID median of (MSE, MAE): [1525.4303     36.821068]
+	Model Seed: 16 OOD median of (MSE, MAE): [1272.6077   32.1791]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 17 Seed: 1 ID mean of (MSE, MAE): [3832.0293     45.619522]
+		Model Seed: 17 Seed: 1 OOD mean of (MSE, MAE) stats: [2327.082      40.158813]
+		Model Seed: 17 Seed: 1 ID median of (MSE, MAE): [1455.6945    35.71804]
+		Model Seed: 17 Seed: 1 OOD median of (MSE, MAE) stats: [1351.9847    34.88886]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 17 Seed: 2 ID mean of (MSE, MAE): [4503.4663    47.48382]
+		Model Seed: 17 Seed: 2 OOD mean of (MSE, MAE) stats: [2094.2773     33.938663]
+		Model Seed: 17 Seed: 2 ID median of (MSE, MAE): [1367.5142    34.16765]
+		Model Seed: 17 Seed: 2 OOD median of (MSE, MAE) stats: [683.8757    24.604162]
+	Model Seed: 17 ID mean of (MSE, MAE): [4167.748      46.551674]
+	Model Seed: 17 OOD mean of (MSE, MAE): [2210.6797     37.048737]
+	Model Seed: 17 ID median of (MSE, MAE): [1411.6042     34.942844]
+	Model Seed: 17 OOD median of (MSE, MAE): [1017.9302    29.74651]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 18 Seed: 1 ID mean of (MSE, MAE): [3877.7854     45.661755]
+		Model Seed: 18 Seed: 1 OOD mean of (MSE, MAE) stats: [2302.6318     40.111084]
+		Model Seed: 18 Seed: 1 ID median of (MSE, MAE): [1363.5575    34.66462]
+		Model Seed: 18 Seed: 1 OOD median of (MSE, MAE) stats: [1409.9418    34.97084]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 18 Seed: 2 ID mean of (MSE, MAE): [3842.7668    45.83929]
+		Model Seed: 18 Seed: 2 OOD mean of (MSE, MAE) stats: [1762.2993    32.67523]
+		Model Seed: 18 Seed: 2 ID median of (MSE, MAE): [1450.7054     35.760117]
+		Model Seed: 18 Seed: 2 OOD median of (MSE, MAE) stats: [807.104     26.926344]
+	Model Seed: 18 ID mean of (MSE, MAE): [3860.2761     45.750523]
+	Model Seed: 18 OOD mean of (MSE, MAE): [2032.4656     36.393158]
+	Model Seed: 18 ID median of (MSE, MAE): [1407.1315     35.212368]
+	Model Seed: 18 OOD median of (MSE, MAE): [1108.523      30.948593]
+	Train: 4654 (47.17%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1140 (11.55%)
+	No scaling applied
+		Model Seed: 19 Seed: 1 ID mean of (MSE, MAE): [4389.4546    46.72875]
+		Model Seed: 19 Seed: 1 OOD mean of (MSE, MAE) stats: [2129.141      37.351185]
+		Model Seed: 19 Seed: 1 ID median of (MSE, MAE): [1244.409      32.757328]
+		Model Seed: 19 Seed: 1 OOD median of (MSE, MAE) stats: [1304.7235     33.681442]
+	Train: 4514 (45.75%)
+	Val: 2016 (20.43%)
+	Test: 2057 (20.85%)
+	Test OOD: 1280 (12.97%)
+	No scaling applied
+		Model Seed: 19 Seed: 2 ID mean of (MSE, MAE): [4554.5576    52.96101]
+		Model Seed: 19 Seed: 2 OOD mean of (MSE, MAE) stats: [1946.5294     36.338272]
+		Model Seed: 19 Seed: 2 ID median of (MSE, MAE): [2395.3406     46.459442]
+		Model Seed: 19 Seed: 2 OOD median of (MSE, MAE) stats: [1235.2445     32.731747]
+	Model Seed: 19 ID mean of (MSE, MAE): [4472.006     49.84488]
+	Model Seed: 19 OOD mean of (MSE, MAE): [2037.8352     36.844727]
+	Model Seed: 19 ID median of (MSE, MAE): [1819.8748     39.608383]
+	Model Seed: 19 OOD median of (MSE, MAE): [1269.984      33.206596]
+ID mean of (MSE, MAE): [4106.57177734375, 46.85432052612305] +- [162.6685791015625, 1.3907026052474976]
+OOD mean of (MSE, MAE): [2272.723388671875, 37.86652374267578] +- [299.5437316894531, 2.1876108646392822]
+ID median of (MSE, MAE): [1501.7694091796875, 36.04643630981445] +- [208.06329345703125, 2.4551923274993896]
+OOD median of (MSE, MAE): [1175.736572265625, 31.45810890197754] +- [207.52236938476562, 2.4250619411468506]
